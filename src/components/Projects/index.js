@@ -13,12 +13,13 @@ export class Projects extends Component {
   }
 }
 
-const mapStateToProps = (state) => ({
-  
+const mapStateToProps = (loading, error) => ({
+  loading,
+  error
 })
 
-const mapDispatchToProps = {
+// const mapDispatchToProps = {
   
-}
+// }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Projects)
+export default connect(mapStateToProps)(Projects);
