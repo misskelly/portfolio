@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Menu from '.';
+import Menu from '../Menu';
 
 describe('Menu', () => {
       let wrapper;
 
       beforeEach(() => {
-          wrapper = shallow( <Menu />);
+          wrapper = shallow(<Menu />);
           });
 
         it('should match the snapshot', () => {
