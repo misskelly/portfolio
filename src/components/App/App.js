@@ -1,22 +1,19 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import ErrorPage from '../ErrorPage';
-import Contact from '../Contact';
-import Projects from '../Projects';
-import Home from '../Home';
+import ContactPage from '../Contact';
+import Portfolio from '../Projects';
+import Main from '../Home';
 
-const App = () => {
-  return (
-    <div>
-      <h1>KellyZick</h1>
-        <Switch>
-          <Route exact path='/' component={ Home } />
-          <Route path='/contact' component={ Contact } />
-          <Route path='/projects' component={ Projects } />
-          <Route path='/error' component={ ErrorPage } />
-        </Switch>
-    </div>
-  )
-}
+const App = () => (
+  <div>
+    <Switch>
+      <Route exact path='/' component={ Main } />
+      <Route exact path='/contact' component={ ContactPage } />
+      <Route exact path='/projects' component={ Portfolio } />
+      <Route path='/error' component={ ErrorPage } />
+    </Switch>
+  </div>
+);
 
-export default App
+export default App;

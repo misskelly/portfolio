@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import * as ur from './uxReducers'
+import * as ur from './uxReducers';
 
 export const rootReducer = combineReducers({
   loading: ur.isLoading,
-  error: ur.hasErrored,
+  error: ur.hasErrored
 });
 
 export default rootReducer;
