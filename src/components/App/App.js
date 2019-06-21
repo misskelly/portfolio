@@ -5,7 +5,7 @@ import ContactPage from '../Contact';
 import Portfolio from '../Projects';
 import Main from '../Home';
 
-const App = () => (
+export const App = () => (
   <div>
     <Switch>
       <Route exact path='/' component={ Main } />

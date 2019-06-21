@@ -6,8 +6,8 @@ describe('Contact', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow( <Contact />);
-    });
+    wrapper = shallow(<Contact />);
+  });
 
   it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
