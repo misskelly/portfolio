@@ -5,8 +5,9 @@ import { createStore, applyMiddleware } from 'redux';
 import { BrowserRouter } from 'react-router-dom';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
-import App from './components/App/App';
 import rr from './reducers';
+import App from './components/App/App';
+import './assets/styles/index.scss';
 
 const store = createStore(rr, composeWithDevTools(applyMiddleware(thunk)));
 
