@@ -6,7 +6,7 @@ import Portfolio from '../Projects';
 import Main from '../Home';
 
 export const App = () => (
-  <div>
+  <div className='app'>
     <Switch>
       <Route exact path='/' component={ Main } />
       <Route exact path='/contact' component={ ContactPage } />

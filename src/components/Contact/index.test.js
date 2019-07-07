@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Contact, mapStateToProps } from '.';
+import { Contact } from '.';
 
 describe('Contact', () => {
   let wrapper;
