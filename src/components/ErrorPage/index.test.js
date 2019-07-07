@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { NotFound } from '.';
+import { NotFound } from './index';
 
 describe('NotFound', () => {
   let wrapper;
