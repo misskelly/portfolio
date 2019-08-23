@@ -1,4 +1,17 @@
 .home-main {
-  background: url(../../assets/images/kz-duck-background.jpeg)no-repeat 10% 75% fixed;background-size: cover;
+  background: #571f3c;
+  background-size: cover;
   height: 100%;
+}
+
+.nav-ul {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.nav-li {
+  padding: 1rem;
+  margin: 0 0.5rem;
 }
